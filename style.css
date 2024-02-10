@@ -143,9 +143,36 @@ header .navigtion .navitems a {
   .video {
     height: 128%;
   }
+  .contant.active .main-title {
+    margin-bottom: -143px;
+    margin-left: -183px;
+  }
+  .contant.active .title {
+    position: relative;
+    right: 182px;
+  }
+  .contant.active .navitems {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -160px;
+  }
+  .contant.active .video {
+    height: 128%;
+  }
+  .contant.active .video.active {
+    height: 128%;
+  }
 }
 @media only screen and (max-width: 870px) {
   .video {
+    height: 133%;
+    width: 102%;
+  }
+  .contant.active .video {
+    height: 133%;
+    width: 102%;
+  }
+  .contant.active .video.active {
     height: 133%;
     width: 102%;
   }
@@ -154,24 +181,47 @@ header .navigtion .navitems a {
   .social-icons {
     margin-left: -17px;
   }
+  .contant.active .social-icons {
+    margin-left: -17px;
+  }
 }
 @media only screen and (max-width: 790px) {
   .video {
     width: 109%;
     height: 144%;
   }
+  .contant.active .video {
+    width: 109%;
+    height: 144%;
+  }
+  .contant.active .video.active {
+    width: 109%;
+    height: 144%;
+  }
   .main-title {
+    margin-bottom: -250px;
+  }
+  .contant.active .main-title {
     margin-bottom: -250px;
   }
   .social-icons {
     margin-left: 22px;
   }
+  .contant.active .social-icons {
+    margin-left: 22px;
+  }
   .navitems {
+    margin-left: -175px;
+  }
+  .contant.active .navitems {
     margin-left: -175px;
   }
 }
 @media only screen and (max-width: 955px) {
   .social-icons {
+    margin-left: 2px;
+  }
+  .contant.active .social-icons {
     margin-left: 2px;
   }
 }
@@ -180,10 +230,21 @@ header .navigtion .navitems a {
     width: 185%;
     height: 185%;
   }
+  .contant.active .video {
+    width: 185%;
+    height: 185%;
+  }
   .contant .main-title {
     margin-bottom: -415px;
   }
+  .contant.active .contant .main-title {
+    margin-bottom: -415px;
+  }
   .social-icons {
+    margin-left: 174px;
+    margin-bottom: -195px;
+  }
+  .contant.active .social-icons {
     margin-left: 174px;
     margin-bottom: -195px;
   }
