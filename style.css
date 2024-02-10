@@ -126,7 +126,7 @@ header .navigtion .navitems a {
 }
 
 /* Responsive */
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1000px) {
   .main-title {
     margin-bottom: -143px;
     margin-left: -183px;
@@ -144,18 +144,18 @@ header .navigtion .navitems a {
     height: 128%;
   }
 }
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 870px) {
   .video {
     height: 133%;
     width: 102%;
   }
 }
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 930px) {
   .social-icons {
     margin-left: -17px;
   }
 }
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 790px) {
   .video {
     width: 109%;
     height: 144%;
@@ -170,12 +170,12 @@ header .navigtion .navitems a {
     margin-left: -175px;
   }
 }
-@media only screen and (max-width: 932px) {
+@media only screen and (max-width: 955px) {
   .social-icons {
     margin-left: 2px;
   }
 }
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 650px) {
   .video {
     width: 185%;
     height: 185%;
